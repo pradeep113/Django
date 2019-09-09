@@ -1,0 +1,8 @@
+
+<body bgcolor="Green"><H1> Hello This is my message board home page</H1></body>
+
+<ul>
+	{% for post in object_list %}
+		<li>{{ post }}</li>
+	{% endfor %}
+</ul>
